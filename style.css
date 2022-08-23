@@ -1,0 +1,134 @@
+html, body {
+    background-color: rgb(242, 199, 68);
+    font-family: "Inconsolata", sans-serif;
+    overflow: hidden
+    color: rgb(32, 32 32);
+    
+}
+h1 {
+    color: #F2D2BD;
+}
+
+
+button { /* button not a class */
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 100%;
+    border:0;
+    padding: 0;
+    
+    
+}
+
+.welcome {
+    font-family: Vesterbro, Times, serif;
+    font-weight: 1000;
+    display: block;
+    font-size: 4em;
+ 
+}
+
+
+.tab button:hover {
+    background-color: #F2D2BD;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(242, 199, 68);
+    background-color: rgb(242, 199, 68);
+}
+
+.tab button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 35;
+    transition: 0.3s;
+}
+
+
+a:any-link {
+    text-decoration:none;
+   
+}
+
+a:link {
+    color:rgb(32, 32, 32) ;
+    background-color: transparent;
+}
+
+a:visited {
+    color:rgb(32, 32, 32);
+    background-color: transparent;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+b:link {
+    color: white;
+    background-color: transparent;
+}
+
+b:hover {
+    color: rgb(32, 32, 32);
+    background-color: transparent;
+}
+
+.lines div { /* targeting .lines class and every div in it */ 
+    height: 4px; /* height for lines */
+    background-color: rgb(32, 32, 32);
+    margin: 5px 1350px; /* add space between bars */ 
+    border-radius: 15px; /* rounded ends */ 
+    transition: 0.2s;
+
+
+}
+
+.lines {
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+
+}
+
+.one {
+    width: 30px;
+}
+
+.two {
+    width: 20px
+}
+
+.three {
+    width: 25px
+}
+
+.lines:hover div {
+    width: 30px;
+    background-color: white;
+}
+
+
+.split {
+       height: 100vh;
+    background: linear-gradient(
+	to right,
+	rgb(32, 32, 32) 0%,
+	rgb(32, 32, 32) 50%,
+	rgb(242, 199, 68) 50%,
+	rgb(242, 199, 68) 0%
+    );
+}
+ 
+    

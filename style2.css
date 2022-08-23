@@ -1,0 +1,32 @@
+.text-box {
+    width: 90%;
+    color: rgb(32, 32, 32);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margink: 10px 0 40px;
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(32, 32, 32);
+    padding: 12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
