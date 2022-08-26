@@ -10,7 +10,7 @@ h1 {
 }
 
 
-button { /* button not a class */
+a { /* button not a class */
     font-family: Lato, Helvetica, Arial, sans-serif;
     letter-spacing: 0.2rem;
     line-height: 1.4;
@@ -29,6 +29,7 @@ button { /* button not a class */
     font-weight: 1000;
     display: block;
     font-size: 4em;
+    text-align: center;
  
 }
 
