@@ -17,7 +17,7 @@
     font-size: 18px;
     color: rgb(32, 32, 32);
     font-style: Times New Roman;
-
+    overflow: scroll;
 .btn {
     display: inline-block;
     text-decoration: none;
