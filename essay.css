@@ -1,0 +1,44 @@
+html {
+    background:rgb(242, 199, 68);
+}
+.question-col{
+    flex-basis: 100%;
+    background:#EAEAEA;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 100px 50px 100px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 2 ;
+}
+
+.question-col:hover{
+    box-shadow: 0 0 20px 0px rgb(32, 32, 32)
+}
+
+.apatitle-pg{
+    flex-basis: 100%;
+    background:#EAEAEA;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 250px 20px 700px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 2 ;
+}
+
+.apatitle-pg:hover{
+    box-shadow: 0 0 20px 0px rgb(32, 32, 32)
+}
+
+
+
+
