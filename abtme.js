@@ -10,13 +10,20 @@ var facts = [
     "My favorite color is pink.",
     "I like doing mehendi (henna) in my free time.",
     "I enjoy making art."
-  ]
+]
+
+var members = [
+    "Layne Yarbrough", "Kripa Tailor", "Srisaivikas Munagala"]
 
 function newFact(){
     var randomNumber = Math.floor(Math.random()*facts.length);
     document.getElementById("facts").innerHTML = facts[randomNumber];
 }
 
+function newMember(){
+    var randomNumber = Math.floor(Math.random()*members.length);
+    document.getElementById("members").innerHTML = members[randomNumber];
+}
 
 
 
