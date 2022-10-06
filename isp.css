@@ -1,0 +1,78 @@
+html, body {
+    background-color: rgb(242, 199, 68);
+    font-family: "Inconsolata", sans-serif;
+    color: rgb(32, 32, 32);
+    
+}
+
+
+i {
+    color: rgb(32, 32, 32);
+    display: block;
+    font-family: Inconsolata, sans-serif;
+    font-weight: 200%;
+    font-size: 80%;
+}
+
+h1 {
+    color: #F2D2BD;
+    font-family: Vesterbro, Times, serif;
+    font-weight: 900;
+    display: block;
+    font-size: 4em;
+    text-align: center;
+ 
+}
+
+p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+b {
+ 
+   
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 100%;
+    border:0;
+    padding: 0;
+    
+
+}
+
+a:link {
+    color:rgb(32, 32, 32) ;
+    background-color: transparent;
+}
+
+a:visited {
+    color:rgb(32, 32, 32);
+    background-color: transparent;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+a { /* button not a class */
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 100%;
+    border:0;
+    padding: 0;
+    
+    
+}
+
+
+

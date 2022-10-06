@@ -1,10 +1,10 @@
 html, body {
     background-color: rgb(242, 199, 68);
     font-family: "Inconsolata", sans-serif;
-    overflow: hidden
-    color: rgb(32, 32 32);
+    color: rgb(32, 32, 32);
     
 }
+
 h1 {
     color: #F2D2BD;
 }
@@ -26,13 +26,13 @@ a { /* button not a class */
 
 .welcome {
     font-family: Vesterbro, Times, serif;
-    font-weight: 1000;
+    font-weight: 900;
     display: block;
     font-size: 4em;
     text-align: center;
  
 }
-
+ 
 
 .tab button:hover {
     background-color: #F2D2BD;
@@ -40,7 +40,7 @@ a { /* button not a class */
 
 .tab {
     overflow: hidden;
-    border: 1px solid rgb(242, 199, 68);
+    
     background-color: rgb(242, 199, 68);
 }
 
@@ -51,7 +51,7 @@ a { /* button not a class */
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 35;
+    font-size: 35px;
     transition: 0.3s;
 }
 
@@ -72,6 +72,21 @@ a:visited {
 }
 
 a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+c:link {
+    color:rgb(32, 32, 32) ;
+    background-color: transparent;
+}
+
+c:visited {
+    color:rgb(32, 32, 32);
+    background-color: transparent;
+}
+
+c:hover {
     color: white;
     background-color: transparent;
 }
@@ -120,16 +135,4 @@ b:hover {
     background-color: white;
 }
 
-
-.split {
-       height: 100vh;
-    background: linear-gradient(
-	to right,
-	rgb(32, 32, 32) 0%,
-	rgb(32, 32, 32) 50%,
-	rgb(242, 199, 68) 50%,
-	rgb(242, 199, 68) 0%
-    );
-}
- 
     

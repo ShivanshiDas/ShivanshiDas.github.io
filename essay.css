@@ -14,10 +14,15 @@ html {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 2 ;
+    
 }
 
 .question-col:hover{
     box-shadow: 0 0 20px 0px rgb(32, 32, 32)
+}
+
+b {
+    text-align: center;
 }
 
 .apatitle-pg{
