@@ -6,11 +6,11 @@ html, body {
 }
 
 h1 {
-    color: #F2D2BD;
+    color: rgb(32, 32, 32);
 }
 
 
-a { /* button not a class */
+li { /* button not a class */
     font-family: Lato, Helvetica, Arial, sans-serif;
     letter-spacing: 0.2rem;
     line-height: 1.4;

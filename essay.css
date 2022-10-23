@@ -1,6 +1,10 @@
 html {
     background:rgb(242, 199, 68);
 }
+
+.pg {
+    text-indent: 50px;
+}
 .question-col{
     flex-basis: 100%;
     background:#EAEAEA;
@@ -14,6 +18,7 @@ html {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 2 ;
+
     
 }
 

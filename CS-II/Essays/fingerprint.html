@@ -8,11 +8,41 @@
 
     <link href="../../essay.css"  rel="stylesheet">
     <link href="../../style3.css" rel="stylesheet">
-    <!-- <link href="../../style.css" rel="stylesheet">
-    -->
+    <link href="../../style.css" rel="stylesheet">
+   
    </head>
 
-<body >
+  <body>
+
+        <div class="tab" style="text-decoration: none;">
+	<ul>
+ 	  <li><a href="../../whyimp.html">ABOUT</a></li>
+	  <li><a href="../../abtme.html#">ABOUT ME</a></li>
+	  <li><a href="../../isp.html#">MINIONSCAPES</a></li>
+	  <li class="dropdown">
+	    <a class="drpbtn" href="#">PREVIOUS COURSES</a>
+	    <div class="dropdown-content">
+	      <a href="../../cs1.html#">ADV CS1</a>
+	        
+	    
+	    </div>
+	    <li class="dropdown">
+	    <a class="drpbtn" href="#">CS-II</a>
+	    <div class="dropdown-content">
+	      <a href="../../CS-II/Projects/Optimal%20Sort.html#">OPTIMAL SORT</a>
+	      <a href="../../CS-II/Essays/fingerprint.html#">FINGERPRINTS</a>
+	  <a href="../../CS-II/Essays/AI%20Sentience.html#">AI SENTIENCE</a>
+	   <a href="../../CS-II/Projects/Business%20Plan/index.html">ISP PROPOSAL</a>
+	        
+	    
+	    </div>
+	    </li>
+	    
+	  </li>
+	</ul>
+	</div>
+
+
       <div class="apatitle-pg">
     
      
@@ -37,37 +67,37 @@ Allen ISD STEAM Center
 
     <div class="question-col">
 
-          	<b> Introduction</b> <br>
-	 With the ongoing transition of personal data into digital spaces such as social media and online databases, the need for an authentic and secure way to establish a connection with any given website has never been greater. In the past, a set of rules for transferring files known as the Hypertext Transfer Protocol (HTTP) was used to guarantee the integrity of a website; however, given the vulnerabilities and loopholes of this protocol, a more thorough protocol with the addition of the Transport Layer Security (TLS) was mainstreamed, resulting in what is known today as Hypertext Transfer Protocol Secure (HTTPS).
-<br>
+      <b> Introduction</b>
+    <div class="pg">  	 With the ongoing transition of personal data into digital spaces such as social media and online databases, the need for an authentic and secure way to establish a connection with any given website has never been greater. In the past, a set of rules for transferring files known as the Hypertext Transfer Protocol (HTTP) was used to guarantee the integrity of a website; however, given the vulnerabilities and loopholes of this protocol, a more thorough protocol with the addition of the Transport Layer Security (TLS) was mainstreamed, resulting in what is known today as Hypertext Transfer Protocol Secure (HTTPS).
+<br> </div>
 <b> About HTTPS</b>
-<br>
+ <div class="pg"> 
     The primary purpose of a secure HTTPS connection is to maintain and ensure Internet privacy through the use of encryption and Internet security through the use of authentication. Without HTTPS, the exchange between the browser and the server occurs in plain text, meaning it can be read by any individual who has the ability to intercept it. HTTPS is an extension of the HTTP protocol in which data is sent in an encrypted method through a cryptographic protocol known as TLS. A TLS handshake is the process through which an end-to-end secure connection is established between a server and a client or a server and a server. During a TLS handshake, the browser and the server establish a shared TLS version and cipher suite after which the server's identity is authenticated using the server’s public and private key ("What happens", n.d.). The server’s private key is the Secure Sockets Layer (SSL) certificate authority’s digital signature such that the web server of any given website must have a Certificate Authority (CA) certificate as proof of authenticity. A CA is a third-party organization that validates the identity and integrity of an entity, whether that be a website or an email address, through the issuance of digital documents known as CA certificates ("Getting a", n.d.). The server sends the browser the private key through the CA certificate while the browser generates a session key which is then encrypted using the private key and transported to the server. With this exchange, both the server and the browser have a session key with which the connection is now considered secure ("How HTTPS", 2021).
-<br>
+<br> </div>
 <b> The Use of Keys in HTTPS </b>
-<br>
+ <div class="pg"> 
 	The public-private key pair is an asymmetrical key such that two different keys are required to encrypt and decrypt data whereas a symmetrical key, such as the session key, only requires one. As it is not possible to intercept an asymmetrical key, the public-private key pair is used to transport the session key to the server; however, because the asymmetrical key is heavier on the processor, the symmetrical key is used to encrypt and decrypt all exchanges following the TLS handshake ("How HTTPS", 2021).
-<br>
+<br> </div>
 <b> The Use of Hashing in HTTPS </b>
-<br>
+<div class="pg"> 
     Hashing, not to be used interchangeably with encryption, is the process of translating plain text data of any length to an output of a fixed length through the use of complex mathematical algorithms known as cryptographic hash functions. Hashing, otherwise known as fingerprinting, is most commonly used in the context of Digital signatures and SSL certificates. Hashing is used not only to shorten the code such that it can be signed by the private key but also to maintain the integrity of the message itself. An acceptable hash function has a unique hash value for each text such that even the most minuscule of changes would alter almost half of the hash (Gibson, n.d.)).
-<br>
+<br> </div>
 <b> HTTPS Proxy Application </b>
-<br>
+ <div class="pg"> 
 	Exchanges between a browser and a server are facilitated by an HTTPS proxy application (Gibson, n.d.). An HTTPS proxy application sends requests to the server on behalf of the browser and allows users to anonymize browsing activity by replacing the browser’s IP address with that of the proxy server.
-<br>
+<br> </div>
 <b> HTTPS in Action </b>
-<br>
+ <div class="pg"> 
 One such application of HTTPS might be in the classic Man in the Middle (MITM) Attack (Gibson, n.d.). A MITM attack is one in which a fraudulent CA and “spoofed” web server certificate, signed by the fraudulent CA, work together to establish a “secure” connection between the browser and a forged website produced by the proxy. The impersonation of the website misleads the user while the fraudulent CA certificate misleads the browser such that neither the browser nor the user can detect the attack. Once the proxy has completed evaluating and logging the data from the user, it establishes a second “secure” connection with the authentic website’s server to complete the exchange. While HTTPS cannot prevent an SSL attack, such an SSL interception can be detected by the hashing function used to hash and unhash the CA certificate. While the proxy can create a function in the public-private key pair for its CA certificate, the proxy’s private key will be completely different from the authenticated server’s private key. The fingerprint, or hash, of the authenticated CA certificate, will also be completely different from the fraudulent CA certificate generated by the proxy.
-<br>
+<br> </div>
 <b> Nuances within HTTPS </b>
-<br>
+ <div class="pg"> 
 	Companies with larger distributed servers and websites may have more than one security certificate such that different users may receive a different certificate from the same website ("Getting a", n.d.). As no two fingerprints are the same, a user's security certificate may not match the fingerprint found online and result in what is known as a false positive. A false negative, on the other hand, is one in which a fraudulent certificate is passed off as a legitimate one.
-<br>
+<br> </div>
 <b> Conclusion </b>
-<br>
+ <div class="pg"> 
 Digital security is becoming an increasingly relevant issue as the reach of technology continues to expand with few limitations. With the shift of organizations in healthcare, commerce, and business to the Internet, the role of HTTPS is significant in allowing such exchanges to occur between users and authenticated websites. However, with the many benefits of HTTPS, there are many drawbacks as well, one of particular concern to law enforcement. While I do not believe any unauthorized third party should have access to intercept communications, I can see why increased privacy would be problematic to law enforcement as this privacy is extended to potential criminals; a middle ground would be the most reasonable solution although its execution can be considered to be up for debate.
-<br>
+<br> </div>
       
    </div>
 

@@ -1,29 +1,54 @@
- <!DOCTYPE html>   
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8"> 
     <title> Optimal Sort </title>
 
-
-    <link rel = "../../stylesheet" href = "style.css">
-    <link href="../../style2.css" rel="stylesheet">
-    <link href="../../isp.css" rel="stylesheet">       
+    <link rel = "stylesheet" href = "../../style2.css">
+     <link rel = "stylesheet" href = "../../style3.css"> 
+     <link rel = "stylesheet" href = "../../essay.css">
+     <link rel = "stylesheet" href = "../../style.css">
+     
   </head>
+  <body>
 
-  <body>     
-  <div>
-      <img src="OptimalSort.io%20(1).jpg" alt="Optimal Sort Flowchart" class = "center2" style="width: 80%; height:100%"> </div>
-<div>
-	 <p style="text-align:center;"> Shivanshi Das, Layne Yarbrough, Kripa Tailor, Srisaivikas Munagala </p>
-    </div>
-     <!--  <i id = "members"> "Shivanshi Das" </i>
-    </blockquote>
 
-    <a onclick="newMember()"> Click to View Members </a> <br><br> -->
-<div class = "btn" style="text-align:center;">
+        <div class="tab" style="text-decoration: none;">
+	<ul>
+ 	  <li><a href="../../whyimp.html">ABOUT</a></li>
+	  <li><a href="../../abtme.html#">ABOUT ME</a></li>
+	  <li><a href="../../isp.html#">MINIONSCAPES</a></li>
+	  <li class="dropdown">
+	    <a class="drpbtn" href="#">PREVIOUS COURSES</a>
+	    <div class="dropdown-content">
+	      <a href="../../cs1.html#">ADV CS1</a>
+	        
+	    
+	    </div>
+	    <li class="dropdown">
+	    <a class="drpbtn" href="#">CS-II</a>
+	    <div class="dropdown-content">
+	      <a href="../../CS-II/Projects/Optimal%20Sort.html#">OPTIMAL SORT</a>
+	      <a href="../../CS-II/Essays/fingerprint.html#">FINGERPRINTS</a>
+	  <a href="../../CS-II/Essays/AI%20Sentience.html#">AI SENTIENCE</a>
+	   <a href="../../CS-II/Projects/Business%20Plan/index.html">ISP PROPOSAL</a>
+	        
+	    
+	    </div>
+	    </li>
+	    
+	  </li>
+	</ul>
+	</div>
+
+<div class="welcome"> <i>Optimal Sort</i> </div>
+<div class="text-box-left">
+  	<img src="OptimalSort.io (1).jpg" alt="Me" style="width: 70%; margin-top: -15%; margin-left: auto; margin-right: auto;"> <br><br>
+<i> Shivanshi Das, Layne Yarbrough, Kripa Tailor, Srisaivikas Munagala </i>
+<br>
     <a href = "https://github.com/LayneY/Optimal-Sort">
-      I LIVE HERE
+      VISIT OPTIMAL SORT HERE
      </a>
 <br>
     <a href = "https://docs.google.com/spreadsheets/d/1Zj52ooh08pZMZu-iAWXBRAeY0RZNma0TGIBn_qJCpLw/edit?usp=sharing">
@@ -33,10 +58,89 @@
         <a href = "https://docs.google.com/spreadsheets/d/1mgYTCkKWmBLcOi4FqT6tYseqWmI60TuOgrrFbWPlEWs/edit?usp=sharing">
       AVERAGED DATA HERE
      </a>
-
-</div>
-
-    </body>
+<br><br>
 
 
-  </html>
+	  	<img src="Bubble Sort.png" alt="Me" style="width: 70%; margin-top: 0px; margin-left: auto; margin-right: auto;"> <br><br>
+ 
+<b>	BUBBLE SORT ANALYSIS </b> <br>
+
+      <i>
+	While Bubble Sort can be considered to be relatively efficient for smaller values, it is vastly inefficient for values above around 10,000, as shown in the graph above. For both the reversed and random lists, the time required to run the sort begins to grow exponentially starting at just under 10,000 words which means Bubble Sort is not a sorting algorithm suited for large sets of data. It is, however, moderately efficient for smaller sets of data. For example, Bubble Sort took less than 5,000 ms to sort up to 10,000 words and then jumped to nearly 35,000 ms, 7 times the time, to sort just 4 times that at 40,000 words. Furthermore, the growing distance between the reversed and random lists suggests that the efficiency of Bubble Sort is largely dependent on the percentage of the data set that is already sorted which makes Bubble Sort largely unreliable and leaves much to chance. This is reasonable given that Bubble Sort iterates through every value it has not yet sorted until the entire data set is sorted, making the swap count significantly higher than that for Selection and Insertion Sort.
+      </i>
+      <br><br>
+      	  	<img src="Insertion Sort (1).png" alt="Me" style="width: 70%; margin-top: 0px; margin-left: auto; margin-right: auto;"> <br><br>
+ 
+      <b>
+	INSERTION SORT ANALYSIS </b> <br> 
+ 
+
+      <i>
+In the graph for Insertion Sort, the reversed data set timed out before reaching the 100,000-word count, which indicates an inefficient worst-case. Insertion Sort tends to take a little less time than Selection for random data sets around or under the 40,000-word mark which suggests that Insertion may run more efficiently for arrays that are somewhat close to sorted while Selection may be preferable in most other cases. For example, Insertion Sort took well under 50,000 ms to sort 40,000 random words while Selection Sort took closer to 60,000 ms to accomplish the same task. That being said, additional tests would be needed to prove this hypothesis as there is currently no explicit data that proves that Insertion Sort is more efficient in sorting reversed values as the numbers are relatively close. Between the Bubble Sort and the Selection Sort, the Insertion Sort was the only one to sort 100,000 unsorted words without timing out which makes it the most efficient sorting algorithm for larger sets of data. 
+      </i>   <br> <br>
+ 
+     
+     	  	<img src="Selection Sort.png" alt="Me" style="width: 70%; margin-top: 0px; margin-left: auto; margin-right: auto;"> <br><br>
+     
+<b>	SELECTION SORT ANALYSIS </b> <br> 
+ 
+      <i>
+
+
+	As seen in the graph for the Selection Sort, the lines corresponding with the reversed, ordered, and random data sets closely follow each other, with the reversed data set being just above the ordered and random data sets. Selection Sort is not dependent on the possibility of mostly sorted or unsorted data sets, as shown by the behavior of the unsorted data set shown above; however, Selection Sort is not able to execute data sets with 100,000 words without timing out,  making it far less efficient than the Insertion Sort. One distinguishing feature of this particular sort is its ability to make the minimum number of swaps in the worst case, or the reversed data set, which can be seen in the graph as the reversed, random, and ordered data sets almost overlap. Selection Sort works by taking the smallest number in an unsorted array and bringing it to the front until the array is sorted, and, unlike Bubble Sort, does not require the comparison of every pair of words.
+      </i>   <br> <br>
+      	  	<img src="Insertion, Selection, and Bubble Sort.png" alt="Me" style="width: 70%; margin-top: 0px; margin-left: auto; margin-right: auto;"> <br><br>
+     
+      <b>
+	HYPOTHESIS </b> <br> 
+ 
+
+      <i>
+	The graph above compiles the data for the three sorting algorithms sorting through random data because the randomized data sets are the most realistic environment to test algorithms in. With the random data set, there are likely to be fewer swaps than with the reversed which should make the algorithm run relatively faster. After running all the tests, it would seem that the Selection Sort tends to run a little slower than the Bubble and Insertion Sorts. Selection Sort is an unstable sorting algorithm while Bubble and Insertion Sorts are stable sorting algorithms which put forth the hypothesis that stable sorting algorithms run faster than their unstable counterparts. While Bubble Sort timed out before reaching the 100,000-word mark, it was still faster than Selection Sort for the words that it successfully sorted.
+	</i><br><br>
+    
+<br>
+    <a href = "https://github.com/ShivanshiDas/BubbleSort">
+BUBBLE SORT
+     </a> <br>
+    <a href = "https://github.com/ShivanshiDas/InsertionSort">
+    INSERTION SORT
+     </a> <br>
+    <a href = "https://github.com/ShivanshiDas/SelectionSort">
+    SELECTION SORT
+     </a>
+<br>
+    <a href = "https://docs.google.com/spreadsheets/d/1MxYAkvyHMb82a3GVle7DGsWs3nSOlxIeniVloqjdrko/edit?usp=sharing">
+      VIEW SORT ANALYSIS SPREADSHEET HERE
+     </a>
+<br>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+     
+
+
+
+
+
+	
+	
+	
+  
+ 
+ </body>
+
+</html>
